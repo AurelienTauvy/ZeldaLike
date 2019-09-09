@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/characters/Link/Link_2D.png</file>
+        <file>images/characters/pnjs/unnamed.png</file>
+        <file>images/characters/obj.png</file>
+        <file>images/characters/pnj.png</file>
+        <file>images/characters/temp1.png</file>
+        <file>images/characters/Link/link_down.png</file>
+        <file>images/characters/Link/link_left.png</file>
+        <file>images/characters/Link/link_right.png</file>
+        <file>images/characters/Link/link_up.png</file>
+        <file>images/collectibles/Rubis.png</file>
+        <file>images/Environment/background/fond.png</file>
+        <file>images/Environment/background/grass.png</file>
+        <file>images/Environment/background/sol.png</file>
+        <file>images/Environment/collidables/arbre.png</file>
+        <file>images/Environment/collidables/hautesHerbes1.png</file>
+        <file>images/Environment/collidables/hautesHerbes2.png</file>
+        <file>images/Environment/collidables/hautesHerbes3.png</file>
+        <file>images/Environment/collidables/hautesHerbes4.png</file>
+        <file>images/Environment/collidables/pancarte.png</file>
+        <file>images/Environment/collidables/touffesHerbe.png</file>
+        <file>images/Environment/collidables/tronc.png</file>
+        <file>images/Environment/collidables/troncHorozontal.png</file>
+        <file>images/Environment/collidables/troncVertical.png</file>
+    </qresource>
+</RCC>

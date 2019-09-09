@@ -1,0 +1,7 @@
+
+Tutorial :
+
+Part 7: Sound
+https://github.com/MeLikeyCode/QtGameTutorial/tree/master/tutorial7
+
+Part 8: Graphismes

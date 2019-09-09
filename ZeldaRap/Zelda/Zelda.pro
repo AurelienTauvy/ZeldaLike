@@ -1,14 +1,15 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2019-06-21T14:09:35
+# Project created by QtCreator 2019-07-10T11:23:57
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui\
+         multimedia
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = ZeldaLike
+TARGET = Zelda
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -26,15 +27,30 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+    player.cpp \
+    pnj.cpp \
+    game.cpp \
+    collidable.cpp \
+    interactable.cpp \
+    environment.cpp
 
 HEADERS += \
-        mainwindow.h
+    player.h \
+    pnj.h \
+    game.h \
+    collidable.h \
+    interactable.h \
+    environment.h
 
-FORMS += \
-        mainwindow.ui
+FORMS +=
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+DISTFILES +=
+
+RESOURCES += \
+    images.qrc \
+    sound.qrc
